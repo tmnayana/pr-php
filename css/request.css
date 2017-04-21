@@ -1,0 +1,96 @@
+body{
+
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+}
+
+#request_text{
+
+	position: relative;
+	margin-left: 35%;
+	font-size: 2em;
+}	
+
+#ta{
+
+ 	position: relative;
+ 	left: 40%;
+ }
+
+ #submit{
+
+ 	position: relative;
+ 	left: 31%;
+ 	top: 30px;
+ 	width: 5%;
+ 	height: 2em;
+ 	border-radius: 5px;
+ 	font-weight: bold;
+ }
+
+ #submit:hover{
+
+ 	background: black;
+ 	color: white;
+ }
+
+ #project_requested{
+
+ 	font-size: 1.5em;
+ }
+
+ #already_requested{
+
+ 	font-size: 2em;
+ 	position: relative;
+ 	margin-left: 35%;
+ 	margin-top: 10%;
+ }
+
+ #back_home{
+
+ 	text-decoration: none;
+    color: blue;
+    position: relative;
+    left: 20%;
+
+ }
+
+ #back_from_request{
+
+ 	text-decoration: none;
+ 	font-size: 25px;
+ 	position: relative;
+ 	left: 23.2%;
+ 	top: 20px;
+ 	color: blue;
+ }
+
+ #menu_col1:hover{
+
+    background-color: grey;
+}
+
+#back_home1{
+
+    text-decoration: none;
+    color: blue;
+    position: relative;
+    left: 50%;
+    top: 10px;
+    font-size: 1.5em;
+
+}

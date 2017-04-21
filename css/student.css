@@ -1,0 +1,177 @@
+body{
+
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+ }
+
+#header{
+
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: black;
+	width: 100%;
+	height: 4em;
+	border-bottom: 3px solid white;
+	z-index: 100;
+}
+
+#container{
+
+	position: relative;
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-top: 10%;
+	height: 20%;
+	border-radius: 10px;
+}
+
+#navbar{
+
+	position: relative;
+	margin-left: 18%;
+	margin-right: 18%;
+	height: 100%;
+}
+
+#project_title{
+
+	margin-right: 65%;
+	font-family: 'Nosifer', cursive;
+	font-size: 1.5em;
+	position: absolute;
+	top: 12%;
+	color: white;
+}
+
+#menu_table_container{
+
+	margin-left: 80%;
+	margin-right: 0px;
+	
+}
+
+#menu_col1{
+
+	height: 3.5em;
+	width: 6em;
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+}
+
+
+#aboutus, #signout{
+
+	text-decoration: none;
+	color: white;
+}
+
+#aboutus:hover, #signout:hover{
+
+ 	opacity: 0.6;
+ 	-webkit-transition: opacity 0.2s ease-in; 
+ }
+
+#links_table_container{
+
+	border: 1px solid white;
+	height: 35em;
+	display: inline;
+	float: left;
+	width: 20%;
+	background-color: #2E2E2E;
+	border-radius: 10px;
+}
+
+#links_table{
+
+	border-radius: 10px;
+}
+
+#space_container{
+
+	
+	height: 35em;
+	margin-left: 20%;
+	border-radius: 10px;
+	border: 2px solid white;
+	background-color: #848484;
+	overflow: auto;
+}
+
+#projects_col, #search_col, #upload_col{
+
+	color: white;
+	font-size: 1.1em;
+	width: 14em;
+	text-decoration: none;
+	text-align: center;
+	background-color: #2E2E2E;
+	border-radius: 5px;
+	font-family: 'Nova Square', cursive;
+}
+
+#projects, #search, #upload{
+
+	text-decoration: none;
+	color: white;
+}
+
+
+#projects_col{
+
+	background-color: black;
+	text-align: center;
+	font-size: 1.1em;
+	border-radius: 5px;
+	border: 1px solid white;
+	font-family: 'Nova Square', cursive;
+}
+
+#projects_col:hover, #search_col:hover, #upload_col:hover{
+
+	background-color: black;
+	opacity: 0.7;
+ 	-webkit-transition: opacity 0.2s ease-in; 
+}
+
+
+#prj_title{
+
+	text-decoration: none;
+	color: white;
+	font-size: 26px;
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	top: 10px;
+	font-weight: bold;
+}
+
+#prj_description{
+
+	position: relative;
+	top: 15px;
+	font-size: 18px;
+	margin-left: 5%;
+	text-indent: 2em;
+	margin-right: 5%;
+}
+
+#menu_col1:hover{
+
+	background-color: grey;
+}

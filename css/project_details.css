@@ -1,0 +1,161 @@
+#proj_name{
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#proj_name_value{
+
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#proj_author{
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#proj_author_value{
+
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#proj_guide{
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#proj_guide_value{
+
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#proj_abstract{
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#proj_abstract_value{
+
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#proj_year{
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#proj_year_value{
+
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#proj_lang{
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#proj_lang_value{
+
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#proj_domain{
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#proj_domain_value{
+
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#proj_status{
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#proj_status_value{
+
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#test_col1{
+
+	width: 15em;
+	text-align: center;
+}
+
+#test_col2{
+
+	width: 35em;
+	text-align: center;
+}
+
+#test_col_abstract1{
+
+	width: 20em;
+	text-align: center;
+}
+
+#test_col_abstract2{
+
+	width: 40em;
+}
+
+#proj_details_id{
+
+	position: relative;
+	top: 25px;
+	background: #A4A4A4;
+}
+
+#request_and_back{
+
+	text-align: right;
+	font-size: 1.3em;
+	color: white;
+	text-decoration: none;
+}
+
+#request_link, #back{
+
+	text-decoration: none;
+
+	color: blue;
+}
+
+#menu_col1:hover{
+
+	background-color: grey;
+}
